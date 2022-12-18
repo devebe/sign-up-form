@@ -47,3 +47,53 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+:root {
+    /* colors */
+    --color-black-20: #e0e0e0;
+    --color-black-40: #adadad;
+    --color-black-60: #4a4a4a;
+    --color-black-80: #474747;
+    --color-black-100: #141414;
+    --color-white-100: #ffffff;
+    --color-blue-80: #3389ff;
+    --color-blue-100: #0056d6;
+    --color-blue-120: #0023a3;
+    --color-blue-140: #000070;
+    --color-red-100: #df1507;
+    --color-green-100: #047217;
+
+    /* font */
+    --font-family: "HK Grotesk", Arial, sans-serif;
+    --font-xs: 0.75rem;
+    --font-s: 0.875rem;
+    --font-m: 1rem;
+    --font-l: 1.125rem;
+    --font-xl: 1.25rem;
+
+    /* line-height */
+    --lh-text: 1.5;
+    --lh-head: 1.25;
+
+    /* radii */
+    --radius-s: 2px;
+    --radius-m: 4px;
+    --radius-l: 8px;
+
+    /* space */
+    --space-xs: 0.125rem;
+    --space-s: 0.25rem;
+    --space-m: 0.5rem;
+    --space-l: 1rem;
+    --space-xl: 2rem;
+
+    /* semantic colors */
+    --color-interaction-primary: var(--color-blue-100);
+    --color-interaction-secondary: var(--color-blue-120);
+    --color-text-primary: var(--color-black-100);
+    --color-text-secondary: var(--color-black-80);
+    --color-succes: var(--color-green-100);
+    --color-error: var(--color-red-100);
+    --color-border-primary: var(--color-black-40);
+    --color-border-secondary: var(--color-black-80);
+}

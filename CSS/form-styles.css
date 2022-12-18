@@ -64,7 +64,7 @@ table {
     --color-green-100: #047217;
 
     /* font */
-    --font-family: "HK Grotesk", Arial, sans-serif;
+    --font-family: Arial, sans-serif;
     --font-xs: 0.75rem;
     --font-s: 0.875rem;
     --font-m: 1rem;
@@ -96,4 +96,11 @@ table {
     --color-error: var(--color-red-100);
     --color-border-primary: var(--color-black-40);
     --color-border-secondary: var(--color-black-80);
+}
+
+* {
+    font-size: 15px;
+    line-height: var(--lh-text);
+    font-family: var(--font-family);
+    color: var(--color-text-primary);
 }

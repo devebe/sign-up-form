@@ -11,13 +11,48 @@
         </section>
     </div>
     <div id="container">
-        <div>
+        <div id="header">
         <section name="header">
             Header area
         </section>
-         <section name="content">
-            Content area
+        </div>
+        <div id="content">
+        <section name="content">
+            <h2>Sign up now</h2>
+            <form>
+                <div id="formfield">
+                    <label for="first_name">First name</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div id="formfield">
+                    <label for="last_name">Last name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                <div id="formfield">
+                    <label for="email_address">Email</label>
+                    <input type="email" id="email_address" name="email_address">
+                </div>
+                <div id="formfield">
+                    <label for="phone_number">Phone</label>
+                    <input type="text" id="phone_number" name="phone_number">
+                </div>
+                <div id="formfield">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div id="formfield">
+                    <label for="password_repeat">Repeat Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div id="checkbox">
+                    <input type="checkbox" name="agree_terms" id="agree_terms" required>
+                    <label for="agree_terms">I agree to the <a href="#">Terms and Conditions</a> and the <a href="#">Privacy Policy</a></label>
+                </div>
+            </form>
+            <button type="submit">Sign Up</button>
         </section>
+        </div>
+        <div id="footer">
         <section name="footer">
             Footer area
         </section>

@@ -67,6 +67,12 @@ table {
     --font-l: 1.125rem;
     --font-xl: 1.25rem;
 
+    /* headings */
+    --heading-s: 1rem;
+    --heading-m: 1.5rem;
+    --heading-l: 2rem;
+    --heading-xl: 3rem;
+
     /* line-height */
     --lh-text: 1.5;
     --lh-head: 1.25;
@@ -114,8 +120,28 @@ body {
     padding-right: 10%;
 }
 
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: var(--heading-xl);
+}
+
+h2 {
+    font-size: var(--heading-l);
+}
+
+h3 {
+    font-size: var(--heading-m);
+}
+
+.text-help {
+    color: var(--color-black-60);
+}
+
 #aside {
-    padding: var(--space-l);
+    padding: 0 var(--space-l);
     flex: 1;
 }
 
@@ -140,6 +166,12 @@ form {
     padding-bottom: var(--space-l);
 }
 
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
 #formfield {
     display: flex;
     width: min(100%,320px);
@@ -149,6 +181,9 @@ form {
 }
 
 label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: var(--font-s);
     color: var(--color-text-secondary);
 }
@@ -167,10 +202,22 @@ input:hover,input:focus,input:active,input:focus-within {
     border-radius: var(--radius-m);
 }
 
+.error {
+    padding: calc(var(--space-m) - var(--line-m));
+    border: var(--color-error) solid var(--line-m);
+    border-radius: var(--radius-m);
+}
+
 #checkbox {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
+
+#checksubmit {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
 }
 
 input[type="checkbox"] {

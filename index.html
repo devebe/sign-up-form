@@ -21,29 +21,29 @@
         <section name="content">
             <h2>Sign up now</h2>
             <form>
-                <div id="formfield">
+                <div id="formfield" class="field">
                     <label for="first_name">First name</label>
                     <input type="text" id="first_name" name="first_name">
                 </div>
-                <div id="formfield">
+                <div id="formfield" class="field">
                     <label for="last_name">Last name</label>
                     <input type="text" id="last_name" name="last_name">
                 </div>
-                <div id="formfield">
+                <div id="formfield" class="field">
                     <label for="email_address">Email</label>
                     <input type="email" id="email_address" name="email_address">
                 </div>
-                <div id="formfield">
+                <div id="formfield" class="field">
                     <label for="phone_number">Phone <p class="text-help">optional</p></label>
                     <input type="text" id="phone_number" name="phone_number" placeholder="+31612345678">
                 </div>
-                <div id="formfield" class="password-1">
+                <div id="password-1" class="field">
                     <label for="password">Password</label>
-                    <input type="password" id="password1" name="password">
+                    <input type="password" id="password1" name="password" class="passwordfield">
                 </div>
-                <div id="formfield" class="password-2">
+                <div id="password-2" class="field">
                     <label for="password_repeat">Repeat Password</label>
-                    <input type="password" id="password2" name="password">
+                    <input type="password" id="password2" name="password" class="passwordfield">
                 </div>
                 <div id="checksubmit">
                     <div id="checkbox">
@@ -51,7 +51,7 @@
                         <label for="agree_terms"><p>I agree to the <a href="#">Terms and Conditions</a> and the <a href="#">Privacy Policy</a></p></label>
                     </div>
                     <div>
-                        <button type="submit" id="formSubmit">Sign Up</button>
+                        <button id="formSubmit">Sign Up</button>
                     </div>
                 </div>
             </form>

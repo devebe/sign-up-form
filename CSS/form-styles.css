@@ -172,12 +172,16 @@ img {
     object-fit: cover;
 }
 
-#formfield {
+.field {
     display: flex;
     width: min(100%,320px);
     flex-direction: column;
     flex-wrap: wrap;
     row: var(--space-l);
+}
+
+.passwordfield {
+    
 }
 
 label {
@@ -202,14 +206,20 @@ input:hover,input:focus,input:active,input:focus-within {
     border-radius: var(--radius-m);
 }
 
-.error {
+.error-border {
     padding: calc(var(--space-m) - var(--line-m));
     border: var(--color-error) solid var(--line-m);
     border-radius: var(--radius-m);
 }
 
+.error {
+    color: var(--color-error);
+    font-size: var(--font-s);
+}
+
 .success {
     color: var(--color-succes);
+    font-size: var(--font-s);
 }
 
 #checkbox {

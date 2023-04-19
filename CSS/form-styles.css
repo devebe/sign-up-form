@@ -208,6 +208,10 @@ input:hover,input:focus,input:active,input:focus-within {
     border-radius: var(--radius-m);
 }
 
+.success {
+    color: var(--color-succes);
+}
+
 #checkbox {
     display: flex;
     flex-direction: row;

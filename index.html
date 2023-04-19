@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./CSS/form-styles.css">
+    <script defer src="./JS/password-match.js"></script>
 </head>
 <body>
     <div id="aside">
@@ -36,13 +37,13 @@
                     <label for="phone_number">Phone <p class="text-help">optional</p></label>
                     <input type="text" id="phone_number" name="phone_number" placeholder="+31612345678">
                 </div>
-                <div id="formfield">
+                <div id="formfield" class="password1">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password-1" name="password">
                 </div>
-                <div id="formfield">
+                <div id="formfield" class="password2">
                     <label for="password_repeat">Repeat Password</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password-2" name="password">
                 </div>
                 <div id="checksubmit">
                     <div id="checkbox">
@@ -50,7 +51,7 @@
                         <label for="agree_terms"><p>I agree to the <a href="#">Terms and Conditions</a> and the <a href="#">Privacy Policy</a></p></label>
                     </div>
                     <div>
-                        <button type="submit">Sign Up</button>
+                        <button type="submit" id="formSubmit">Sign Up</button>
                     </div>
                 </div>
             </form>

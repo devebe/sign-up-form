@@ -143,12 +143,13 @@ h3 {
 #aside {
     display: block;
     position: relative;
-    margin: 0 var(--space-l);
+    background-color: var(--color-black-20);
     flex: 1;
 }
 
 #container {
-    padding: var(--space-l);
+    padding: 0 var(--space-xl);
+    background-color: var(--color-black-20);
     flex: 2;
 }
 
